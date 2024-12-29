@@ -6,7 +6,7 @@ import axios from 'axios';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login  from './Components/Login.jsx';
 import Register from './Components/Register.jsx';
- axios.defaults.baseURL='http://localhost:5000';
+ axios.defaults.baseURL='https://task-management-be-g6wm.onrender.com';
 
 const router= createBrowserRouter([
     {
